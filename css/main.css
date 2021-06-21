@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.profile-thumb{
+  height: 500px;
+  width: 400px;
+}
+
+.profile-thumb img{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+
+.hero-wrapper::after {
+  content: '';
+  width: 852px;
+  height: 778px;
+  position: absolute;
+  background: #0f2258;
+  right: -511px;
+  bottom: -185px;
+  transform: rotate(
+112deg
+);
+  z-index: 1;
+  border: 7px solid #fff;
+  box-shadow: 0px 6px 16px -4px #000000a1;
+}
